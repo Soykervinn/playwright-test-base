@@ -1,0 +1,29 @@
+{
+  "name": "playwright-test-base",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is the repo base to implement test automation frameworks using Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "lint": "npx eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.2",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-playwright": "^2.2.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.1",
+    "uuid": "^11.0.5"
+  }
+}
