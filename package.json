@@ -8,7 +8,8 @@
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",
     "lint": "npx eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -19,13 +20,14 @@
     "ajv-formats": "^3.0.1",
     "@faker-js/faker": "^9.5.0",
     "uuid": "^11.0.5"
-},
+  },
   "devDependencies": {
     "@types/node": "^22.13.2",
     "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-prettier": "^5.2.3",
-    "prettier": "^3.5.1"
+    "prettier": "^3.5.1",
+    "husky": "^8.0.0"
   }
 }

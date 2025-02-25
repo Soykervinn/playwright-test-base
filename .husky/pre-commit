@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm test
+git diff --exit-code .nvmrc || (echo ".nvmrc was modified! Commit blocked." && exit 1)
